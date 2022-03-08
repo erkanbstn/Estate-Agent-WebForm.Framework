@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ust-menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #deeaee
+}
+.ust-menu .logo {
+    width: 10%;
+    height: auto;
+    text-align: center;
+    line-height: 60px;
+}
+.ust-menu .baslik {
+    margin-top: 1%;
+}
+.ust-menu .baslik ul {
+    display: flex;
+}
+.baslik ul li {
+    list-style-type: none;
+    padding-left: 29px;
+}
+.baslik ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.baslik ul li:hover a {
+    color: grey;
+    text-shadow: 1px 1px 1px blue;
+}
+
+
+
+.govde {
+    width: 100%;
+    height: 850px;  
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+                        /* Tanıtım */
+
+.govde .tanitim {
+    width: 70%;
+    height: 550px;
+    margin-left: 15%;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(38, 23, 66);
+    text-shadow: 1px 1px 2px red;
+}
+.tanitim button {
+    width: 25%;
+    height: 40px;
+    margin-top: 10%;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+.tanitim button:hover {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+
+
+        /* Daireler */
+
+.galeri {
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+}
+.sutun {
+    display: flex;
+    padding-top: 3%;
+}
+.galeri .foto {
+    margin: 10px;
+    width: 25%;
+    height: 210px;
+}
+.galeri .foto img {
+    width: 100%;
+    height: 210px;
+}
+.galeri .foto .adres {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(202, 202, 202);
+    visibility: hidden;
+}
+.galeri .foto:hover {
+    border: 3px solid #777;
+}
+.galeri .foto:hover .adres {
+    visibility: visible;
+}
+
+
+                /* Hakkımızda */
+
+.hakkimizda {
+    width: 70%;
+    height: 550px;
+    margin-left: 15%;
+    padding-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.logo2 {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+.bilgi {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bilgi h4 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+} 
+.bilgi p {
+    text-shadow: 0.2px 0.2px 1px red;
+}
+
+
+
+            /* Giriş Yap */
+
+.giris {
+    width: 50%;
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 25%;
+    background-color: rgba(191, 187, 218, 0.315);
+}
+.giris-icon {
+    width: 20%;
+    margin-left: 40%;
+    height: 150px;
+    border-radius: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form h4 {
+    margin-top: 40px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.form input {
+    border-radius: 30px;
+    background-color: rgb(230, 230, 230);
+}
+.form button {
+    border-radius: 30px;
+    background-color: rgb(230, 230, 230);
+}
+.form button:hover {
+    box-shadow: 2px 2px 2px red;
+    background-color: rgb(90, 179, 90);
+}
+.form .kayit-btn:hover {
+    box-shadow: 2px 2px 2px red;
+    background-color: rgb(77, 212, 221);
+}
+
+
+
+
+.alt-menu {
+    width: 100%;
+    height: 70px;
+    background-color: #deeaee;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.alt-menu div {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-menu img {
+    background-color: rgba(243, 243, 243, 0.822);
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+            /* Admin */
+
+.kullanicilar {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.kullanicilar table {
+    background-color: lavenderblush;
+    border-radius: 10px;
+}
